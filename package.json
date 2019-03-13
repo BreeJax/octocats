@@ -10,7 +10,8 @@
     "postdeploy": "echo 'Your site was deployed to https://octo-cat-.netlify.com'",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "git": "git add . && git commit -m 'Emergency Commit' && git push octo-cat"
+    "egit": "git add . && git commit -m 'Emergency Commit' && git push octo-cat",
+    "git": "git push octo-cat"
   },
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
   "devDependencies": {
