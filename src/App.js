@@ -4,7 +4,7 @@ import FirstClass from "./components/FirstClass"
 import FirstLearnings from "./components/FirstLearnings"
 
 const persons = ["Guys", "Gals", "Non-Binary Pals"]
-const learning = ["Component", "Props"]
+const learning = ["Component", "Props", "App-App", "Liz"]
 
 // class App extends Component {
 //   render() {
