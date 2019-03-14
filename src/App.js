@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import HelloWorld from "./components/HelloWorld"
 import FirstClass from "./components/FirstClass"
 import FirstLearnings from "./components/FirstLearnings"
+import Cats from "./components/Cats"
 
 const persons = ["Guys", "Gals", "Non-Binary Pals"]
 const learning = ["Component", "Props", "App-App", "Liz"]
@@ -29,6 +30,7 @@ class App extends Component {
           return <HelloWorld person={personX} />
         })}
         <FirstClass />
+        <Cats />
         <h4>Today We are learning about:</h4>
         {learning.map((learningX) => {
           return <FirstLearnings learning={learningX} />
