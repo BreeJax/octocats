@@ -55,7 +55,18 @@ class Cats extends React.Component {
     const { error, isLoaded, cats } = this.state
     console.log(cats)
 
-    return <ul>{cats.map((cat) => <li key={cat.name}>{cat.name}</li>)}</ul>
+    return (
+      <ul>
+        {cats.map((cat) => (
+          <li key={cat.name}>
+            <div>
+              <img src={cat.image} />
+              <p>{cat.name}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    )
   }
 }
 
