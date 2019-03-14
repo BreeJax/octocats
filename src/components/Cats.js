@@ -60,7 +60,9 @@ class Cats extends React.Component {
         {cats.map((cat) => (
           <li key={cat.name}>
             <div>
-              <img src={cat.image} />
+              <a href={cat.link} target="_blank">
+                <img src={cat.image} alt={cat.name} />
+              </a>
               <p>{cat.name}</p>
             </div>
           </li>

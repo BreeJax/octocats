@@ -22,19 +22,28 @@ const learning = ["Component", "Props", "App-App", "Liz"]
 //     )
 //   }
 // }
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         {persons.map((personX) => {
+//           return <HelloWorld person={personX} />
+//         })}
+//         <FirstClass />
+//         <Cats />
+//         <h4>Today We are learning about:</h4>
+//         {learning.map((learningX) => {
+//           return <FirstLearnings learning={learningX} />
+//         })}
+//       </div>
+//     )
+//   }
+// }
 class App extends Component {
   render() {
     return (
       <div>
-        {persons.map((personX) => {
-          return <HelloWorld person={personX} />
-        })}
-        <FirstClass />
         <Cats />
-        <h4>Today We are learning about:</h4>
-        {learning.map((learningX) => {
-          return <FirstLearnings learning={learningX} />
-        })}
       </div>
     )
   }
