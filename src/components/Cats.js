@@ -61,7 +61,7 @@ class Cats extends React.Component {
           <li key={cat.name}>
             <div>
               <a href={cat.link} target="_blank">
-                <img src={cat.image} alt={cat.name} />
+                <img src={cat.image} alt={`Picture of ${cat.name}`} />
               </a>
               <p>{cat.name}</p>
             </div>
