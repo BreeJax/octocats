@@ -2,7 +2,9 @@
 
 Created using App-App, website will be listed below
 
-#Below is the homework
+this is the website to check it out: https://octo-cat.netlify.com/
+
+Below is the homework
 
 # React-ified Octocats
 
